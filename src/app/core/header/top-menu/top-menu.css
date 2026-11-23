@@ -1,0 +1,16 @@
+.tn-top-menu {
+  color: var(--text);
+}
+
+.tn-top-menu:hover {
+  color: var(--btn-active-text);
+}
+
+.tn-top-menu:active {
+  color: var(--text);
+}
+
+tn-top-menu {
+  display: block;
+}
+

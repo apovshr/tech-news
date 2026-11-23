@@ -1,0 +1,32 @@
+.tn-header {
+  background-color: var(--accent);
+}
+
+.tn-header-logo {
+  color: var(--text);
+}
+
+.tn-header-logo:hover {
+  color: var(--btn-active-text);
+}
+
+.tn-header-logo:active {
+  color: var(--text);
+}
+.tn-search-btn {
+  background-color: var(--btn-default);
+  border-color: var(--btn-default);
+  color: var(--text);
+}
+
+.tn-search-btn:hover {
+  background-color: var(--btn-default);
+  border-color: var(--btn-active);
+  color: var(--btn-active);
+}
+
+.tn-search-btn:active {
+  background-color: var(--btn-active);
+  border-color: var(--btn-active);
+  color: var(--btn-active-text);
+}

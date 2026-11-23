@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  --background: #DAEAFF;
+  --text: #031725;
+  --accent: #A1C6F6;
+  --btn-default: #bddaf4;
+  --btn-active: #022E5B;
+  --btn-active-text: #dfefff;
+}

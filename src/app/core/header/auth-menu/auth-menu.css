@@ -1,0 +1,11 @@
+.tn-auth-btn {
+  color: var(--text);
+}
+
+.tn-auth-btn:hover {
+  color: var(--btn-active-text);
+}
+
+.tn-auth-btn:active {
+  color: var(--text);
+}
