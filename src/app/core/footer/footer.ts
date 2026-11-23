@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {AppInfo} from '../../shared/models/appInfo';
 
 @Component({
   imports: [],
@@ -7,8 +8,8 @@ import { Component } from '@angular/core';
   templateUrl: './footer.html',
 })
 export class Footer {
-  footerConfig: { year : number; title : string} = {
-    year: 2026,
+  footerConfig: AppInfo = {
+    year: new Date().getFullYear(),
     title : "Tech News",
   }
 }
